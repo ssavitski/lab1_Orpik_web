@@ -1,8 +1,5 @@
-var count=0;
-
-function inc(N) {
-
-    count+=N;
-
-    console.log(count);
-};
+var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
